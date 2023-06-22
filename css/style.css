@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.font-quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text-hover-ci:hover {
+    color: #dd4814;
+}
+
+.text-hover-b5:hover {
+color: #7532f9;
+}
+
+.text-hover-sql:hover {
+    color: #3e6e93;
+}
+
+@media (max-width: 576px) { 
+    .img-jumbo{
+        width: 250px;
+    }
+ }
