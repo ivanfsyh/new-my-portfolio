@@ -1,23 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .font-quicksand {
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .text-hover-ci:hover {
-    color: #dd4814;
+  color: #dd4814;
 }
 
 .text-hover-b5:hover {
-color: #7532f9;
+  color: #7532f9;
 }
 
 .text-hover-sql:hover {
-    color: #3e6e93;
+  color: #3e6e93;
 }
 
-@media (max-width: 576px) { 
-    .img-jumbo{
-        width: 250px;
-    }
- }
+.text-brown {
+  color: #3f3f3f;
+}
+
+.bg-brown {
+  background-color: #3f3f3f;
+}
+
+.btn-brown {
+  background-color: #3f3f3f !important;
+}
+
+.btn-outline-brown {
+  border: 3px;
+  border-color: #3f3f3f !important;
+}
+
+.btn-outline-brown::hover {
+  background-color: #3f3f3f !important;
+}
+
+@media (max-width: 576px) {
+  .img-jumbo {
+    width: 250px;
+  }
+}
