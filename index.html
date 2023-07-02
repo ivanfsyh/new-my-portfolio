@@ -9,7 +9,7 @@
     <link href="vendor/bootstrap-5.2.3/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="text-brown">
+<body class="text-brown font-quicksand">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
@@ -69,8 +69,8 @@
         <section id="about" class="bg-brown text-light p-5">
             <div class="container mt-5">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-12">
-                        <h2 class="display-5 fw-bolder text-center mb-5"><span class="d-inline">About Me</span></h2>
+                    <div class="col-12 col-lg-12 mb-5">
+                        <h2 class="display-5 fw-bolder text-center"><span class="d-inline">About Me</span></h2>
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="text-center">
@@ -84,13 +84,18 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <h5>Social Media</h5>
-                        <div class="d-flex">
-                            <div class="flex-shrink-0">
-                                <img src="..." alt="...">
+                        <h4 class="mb-3">Social Media</h4>
+
+                        <div class="row">
+                            <div class="col-sm-3 col-lg-2">
+                                <img id="img-ig" class="rounded-circle" src="img/ig-profile.jpg" width="100" alt="...">
                             </div>
-                            <div class="flex-grow-1 ms-3">
-                                This is some content from a media component. You can replace this with any content and adjust it as needed.
+                            <div class="col-sm-9 col-lg-10">
+                                <h5 id="username"><i class="fa-brands fa-instagram"></i> ivanfsyh</h5>
+                                <div class="d-flex">
+                                    <span class="me-3">Followers : 559 </span>
+                                    <span>Following : 1,085</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -99,31 +104,31 @@
     </div>
     </section>
 
-    <section id="resume" style="padding-top: 5rem;">
+    <section id="resume" class="p-5">
         <div class="container mt-5">
             <div class="row">
-                <div class="col">
+                <div class="col mb-5">
                     <h2 class="display-5 fw-bolder text-center"><span class="d-inline">Resume</span></h2>
                 </div>
             </div>
             <div class="row justify-content-between mt-3 text-center">
                 <div class="col-lg-6 col-sm-12">
-                    <h4 class="display-6 text-center text-primary"><span class="d-inline">Education</span></h4>
+                    <h4 class="display-6 text-center"><span class="d-inline">Education</span></h4>
                 </div>
-                <div class="col-lg-6 col-sm-12">
-                    <a href="https://drive.google.com/file/d/1O0xIyt3xzJV7YrsZTZjTYmW1mgSr1ueO/view?usp=sharing" target="_blank" class="btn btn-primary btn-lg"><i class="fas fa-download"></i> Download Resume</a>
+                <div class="col-lg-6 col-sm-12 mb-3">
+                    <a href="https://drive.google.com/file/d/1O0xIyt3xzJV7YrsZTZjTYmW1mgSr1ueO/view?usp=sharing" target="_blank" class="btn btn-brown text-light btn-lg"><i class="fas fa-download"></i> Download Resume</a>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mb-5">
                 <div class="col-sm-12 col-lg-8">
                     <div class="card shadow" style="border: none;">
                         <div class="card-body">
                             <div class="row text-center">
                                 <div class="col-sm-12 col-lg-6 py-4 px-4">
-                                    <h3 class="fs-2 fw-light text-primary">2012-2015</h3>
+                                    <h3 class="fs-2 fw-light">2012-2015</h3>
                                 </div>
                                 <div class="col-sm-12 col-lg-6 py-4 px-4">
-                                    <span class="fw-bold text-primary">IPA</span> <br>
+                                    <span class="fw-bold">IPA</span> <br>
                                     <span class="fw-bolder">SMA Negeri 1 Mandirancan</span> <br>
                                     <span class="fw-lighter">Kuningan, Jawa Barat</span>
                                 </div>
@@ -136,10 +141,10 @@
                         <div class="card-body">
                             <div class="row text-center">
                                 <div class="col-sm-12 col-lg-6 py-4 px-4">
-                                    <h3 class="fs-2 fw-light text-primary">2015-2018</h3>
+                                    <h3 class="fs-2 fw-light">2015-2018</h3>
                                 </div>
                                 <div class="col-sm-12 col-lg-6 py-4 px-4">
-                                    <span class="fw-bold text-primary">D3 Teknik Komputer</span> <br>
+                                    <span class="fw-bold">D3 Teknik Komputer</span> <br>
                                     <span class="fw-bolder">Sekolah Vokasi IPB</span> <br>
                                     <span class="fw-lighter">Bogor, Jawa Barat</span>
                                 </div>
@@ -149,8 +154,8 @@
                 </div>
             </div>
             <div class="row justify-content-between mt-3 text-center">
-                <div class="col-lg-6 col-sm-12">
-                    <h4 class="display-6 text-center text-success"><span class="d-inline">Experience</span></h4>
+                <div class="col-lg-6 col-sm-12 mb-3">
+                    <h4 class="display-6 text-center"><span class="d-inline">Experience</span></h4>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -159,7 +164,7 @@
                         <div class="card-body">
                             <div class="row text-center">
                                 <div class="col-sm-12 col-lg-6 py-4 px-4">
-                                    <span class="fw-bold text-success">2019-2021</span> <br>
+                                    <span class="fw-bold">2019-2021</span> <br>
                                     <span class="fw-bolder">Dep. Verifikasi Uang Kertas</span> <br>
                                     <span class="fw-lighter">Perum Peruri, Karawang</span>
                                 </div>
@@ -175,7 +180,7 @@
                         <div class="card-body">
                             <div class="row text-center">
                                 <div class="col-sm-12 col-lg-6 py-4 px-4">
-                                    <span class="fw-bold text-success">2021-Present</span> <br>
+                                    <span class="fw-bold">2021-Present</span> <br>
                                     <span class="fw-bolder">Dep. Desain dan Proof</span> <br>
                                     <span class="fw-lighter">Perum Peruri, Karawang</span>
                                 </div>
@@ -208,10 +213,10 @@
         </div>
     </section>
 
-    <section id="project" style="padding-top: 5rem;">
-        <div class="container mt-5">
+    <section id="project" class="bg-brown p-5">
+        <div class="container mt-5 mb-5 text-light">
             <div class="row">
-                <div class="col">
+                <div class="col mb-5">
                     <h2 class="display-5 fw-bolder text-center"><span class="d-inline">Project</span></h2>
                 </div>
             </div>
@@ -225,7 +230,7 @@
                             <div class="col-md-7">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text text-brown">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
@@ -259,7 +264,7 @@
                 </div>
             </div>
             <div class="row justify-content-center mt-4">
-                <div class="col-sm-12 col-lg-8">
+                <div class="col-sm-12 col-lg-8 mb-5">
                     <div class="card shadow" style="border: none;">
                         <div class="card-body">
                             <div class="table-responsive">
@@ -330,9 +335,9 @@
             </div>
         </div>
     </section>
-    <section id="contact" style="padding-top: 5rem;">
+    <section id="contact" class="bg-brown p-5 mt-5">
         <div class="container-fluid mt-5">
-            <div class="mt-4 px-5 bg-dark text-white border-0 rounded">
+            <div class="mt-4 px-5 text-white border-0 rounded">
                 <div class="row">
                     <div class="col">
                         <div class="row">
